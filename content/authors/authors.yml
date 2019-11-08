@@ -1,0 +1,15 @@
+- name: Steven Sajja
+  bio: |
+    Written by Steven Sajja who lives and works in Cape Town building useful things.
+    You should follow him on Twitter.
+  avatar: ./avatars/sajja.png
+  featured: true
+  social:
+    - name: github
+      url: https://github.com/sajeezy
+    - name: twitter
+      url: https://twitter.com/sajeezy
+    - name: instagram
+      url: https://instagram.com/sajjasajeezy
+    - name: linkedin
+      url: https://linkedin.com/stevensajja
