@@ -4,11 +4,11 @@
   avatar: ./avatars/sajja.png
   featured: true
   social:
-    - name: github
-      url: https://github.com/sajeezy
+    - name: linkedin
+      url: https://linkedin.com/stevensajja
     - name: twitter
       url: https://twitter.com/sajeezy
     - name: instagram
       url: https://instagram.com/sajjasajeezy
-    - name: linkedin
-      url: https://linkedin.com/stevensajja
+    - name: github
+      url: https://github.com/sajeezy

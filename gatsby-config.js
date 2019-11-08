@@ -16,8 +16,7 @@ module.exports = {
     siteMetadata: {
         title: `Steven Sajja`,
         name: `Steven Sajja`,
-        // TODO: Change siteURL
-        siteUrl: `https://gatsby-theme-novela.netlify.com`,
+        siteUrl: `https://www.stevensajja.com`,
         description: `Tech entrepreneur based in Cape Town South Africa`,
         hero: {
             heading: `Perspectives on technology, design and business in Africa.`,
@@ -25,8 +24,16 @@ module.exports = {
         },
         social: [
             {
+                name: `linkedin`,
+                url: `https://linkedin.com/stevensajja`,
+            },
+            {
                 name: `twitter`,
                 url: `https://twitter.com/sajeezy`,
+            },
+            {
+                name: `instagram`,
+                url: `https://instagram.com/sajjasajeezy`,
             },
             {
                 name: `github`,
@@ -35,6 +42,8 @@ module.exports = {
         ],
     },
     plugins: [
+        `gatsby-plugin-sitemap`,
+        `gatsby-plugin-robots-txt`,
         {
             resolve: "@narative/gatsby-theme-novela",
             options: {
@@ -62,6 +71,12 @@ module.exports = {
                 theme_color: `#fff`,
                 display: `standalone`,
                 icon: `src/assets/heart.svg`,
+            },
+        },
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: "UA-151908500-1",
             },
         },
     ],
