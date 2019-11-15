@@ -17,7 +17,7 @@ module.exports = {
         title: `Steven Sajja`,
         name: `Steven Sajja`,
         siteUrl: `https://www.stevensajja.com`,
-        description: `Tech entrepreneur based in Cape Town South Africa`,
+        description: `Product & Tech entrepreneur based in Cape Town South Africa`,
         hero: {
             heading: `Perspectives on technology, design and business in Africa.`,
             maxWidth: 652,
